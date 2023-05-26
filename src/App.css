@@ -1,38 +1,323 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Source+Code+Pro:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Source+Code+Pro:ital,wght@1,300&family=Yantramanav:wght@300&display=swap');
+
+* {
+    padding:0 ;
+    margin: 0;
+    background-color: #0E0C0A;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.blog{
+    padding: 15px;
+    font-family: 'Noto Serif', serif;
+    font-size: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.services{
+    color: white;
+    margin: 20px 30px;
+    padding: 15px;
+    font-family: 'Noto Serif', serif;
+    font-size: 20px;
+}
+.intro{
+    margin: 10px 30px;
+    padding: 15px;
+    font-family: 'Noto Serif', serif;
+    font-size: 20px;
+}
+.contact{
+    color: white;
+    padding: 15px;
+    font-family: 'Noto Serif', serif;
+    font-size: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.sidebaritems{
+    background-color: grey;
 }
 
-.App-link {
-  color: #61dafb;
+.sidebar nav li a {
+    text-decoration: none;
+    color: white;
+    background-color: gray;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sidebaritems li{
+    background-color: gray;
+    color: yellow;
+}
+
+.sidebar {
+    position: absolute;
+    /*background-color: red; */
+    background-color: gray;
+    /*width: 15vw; */
+    font-family: 'Noto Serif', serif;
+    height: 200vh;
+    transition: transform 0.3s ease-in;
+    
+}
+
+.moreabout{
+    color: white;
+    font-size: 1.5em;
+    margin-top: 8px;
+    font-family: 'Noto Serif', serif;
+}
+.sidebar nav{
+    padding: 45px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+
+#crossimg{
+    background-color: gray;
+    margin-bottom: -4px;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    /* background-color: yellow; */
+    width: 90vw;
+}
+.infocontainer {
+    display: flex;
+    /*background-color: palevioletred; */
+    margin: 144px auto;
+    width: 70vw;
+    height: 58vh;
+    justify-content: space-around;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Source Code Pro', monospace;
+}
+#akashinfo {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hello{
+    color: white;
+    font-size: 3em;
+    font-size: 45px;
+}
+
+.name{
+    color: white;
+    font-size: 3em;
+    font-weight: bold;
+    font-family: 'Noto Serif', serif;
+}
+
+.about{
+    color: white;
+    font-size: 2.5em;
+}
+
+
+
+.devimg img{
+    
+    height: 58vh;
+}
+
+.buttons button{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: black;
+    background-color: yellow;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin: 16px 3px;
+    cursor: pointer;
+}
+
+.buttons button:hover{
+    background-color: white;
+    color: blue;
+}
+
+.formheading{
+    font-family: 'Noto Serif', serif;
+    padding-top: 18px;
+    padding-left: 10px;
+}
+
+.contactform{
+    color: white;
+    margin: 10px 30px;
+}
+
+.container form{
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+    margin-top: 82px;
+    padding: 3px;
+    margin-left: -566px;
+    padding-left: 12px;
+    font-size: large;
+}
+
+.container form input{
+    background-color: white;
+    font-size: 17px;
+    border-radius: 6px;
+    display: flex;
+    margin-top: 6px;
+    font-size: 17px;
+    padding-right: 78px;
+}
+
+#emailHelp{
+    margin-top: 1px;
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+#clientname{
+    margin-bottom: 11px;
+}
+
+#clientphone{
+    margin-bottom: 11px;
+}
+
+#btn-sm{
+    font-size: 13px;
+    padding: 9px 12px;
+}
+
+.blogcontainer{
+    color: white;
+    margin: 30px 30px;
+}
+
+.blogheading{
+    color: white;
+    font-family: 'Noto Serif', serif;
+}
+
+.blogheading h2{
+    color: white;
+    margin: -9px;
+    margin-bottom: 3px;
+}
+
+.blogpara{
+    color: white;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+}
+
+.intro h2{
+    color: white;
+    font-family: 'Noto Serif', serif;
+
+}
+
+.intro p{
+    color: white;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Yantramanav', sans-serif;
+    
+}
+
+.skill{
+    width: 300px;
+    height: 25px;
+    background-color: red;
+    margin-top: 0px;
+    border: 2px solid black;
+}
+
+.fullbox{
+    background-color: white;
+    width: 400px;
+    border: 2px solid black;
+}
+
+.skillitem{
+    color: white;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+    font-weight: 600;
+    display: flex;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.hundred{
+    width: 400px;
+}
+
+.fifty{
+    width: 200px;
+}
+
+.seventyfive{
+    width: 300px;
+}
+
+.twentyfive{
+    width: 100px;
+}
+
+.intro h4{
+    color: white;
+    font-family: 'Noto Serif', serif;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebargo{
+    transform: translate(-443px,0px);
+    position: absolute;
+}
+
+.hamburger{
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.cross{
+    padding-left: 171px;
+    width: 22px;
+}
+
+.devinfo{
+    font-size: 16px;
+}
+
+@media (max-width:1100px){
+    *{
+        /* background-color: red; */
+    }
+    .buttons{
+        font-size: 10px;
+    }
+    .devinfo{
+        font-size: 10px;
+    }
+    .intro,.blogcontainer{
+        margin: 44px 8px;
+    }
+    .devimg{
+        display: none;
+    }
 }
