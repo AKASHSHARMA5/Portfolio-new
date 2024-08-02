@@ -4,7 +4,7 @@ import Blog from './component/Blog';
 import Main from './component/Main';
 import {
   Route,
-  BrowserRouter as Router, Routes,
+  BrowserRouter as Router, Routes,   //we use HashRouter instead of BrowserRouter because github does not support BrowserRouter in deployment 
 } from "react-router-dom";
 import Services from './component/Services';
 import Contact from './component/Contact';

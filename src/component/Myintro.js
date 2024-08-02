@@ -4,11 +4,11 @@ export default function Intro() {
   return (
     <div className='intro'>
       <h2>About Me</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam beatae quae voluptates nisi et, inventore reiciendis, expedita maxime illo laudantium neque adipisci debitis sapiente iusto! Praesentium eaque ratione debitis autem!</p> <br />
+      <p>As a dedicated MERN Stack Developer, I have extensive experience in building full-stack web applications using MongoDB, Express.js, React.js, and Node.js. My expertise lies in creating dynamic, responsive, and efficient applications that provide excellent user experiences and robust performance. I am proficient in both front-end and back-end development, ensuring seamless integration and functionality across the entire stack. With a focus on scalability and maintainability, I am committed to delivering high-quality solutions that meet the needs of users and stakeholders.</p> <br />
       {/* Education */}
       <h2>Education-</h2>
-      <p>❖ Computer science and engineering | Vellore institute of technology           <br />
-         <b> <i> CGPA-8.6 </i> </b>| (Oct ‘22- jun ‘26) </p>
+      <p>❖ Btech in CSE specialisation in cyber security and digital forensics | Vellore institute of technology Bhopal          <br />
+         <b> <i> CGPA-8.45 </i> </b>| (Oct ‘22- jun ‘26) </p>
       <p>❖ XII (CBSE) | Kendriya Vidyalaya   <br />
           <b> <i> 82.4% </i></b>| 2021</p> <br />
       {/* Projects */}

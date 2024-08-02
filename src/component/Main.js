@@ -1,6 +1,9 @@
 import React from 'react'
 import akash from "./developerimg.png"
-import pdf from './Resume-Akash sharma.pdf'
+//import pdf from './Resume-Akash sharma.pdf'
+//import pdf from './ResumeAkash.pdf'
+import pdf from './ResumeAkashSharma.pdf'
+
 // import hambur from './hamburger.png'
 // import cross from './cross.png'
 // import Hamburg from './Hamburg'
@@ -26,7 +29,7 @@ export default function Home(props) {
                         <div className="hello">My Name is</div>
                         <div className="name">Akash Sharma</div>
                         <div className="about">Programmer,Mern stack developer</div>
-                        <div className="moreabout">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam, corrupti debitis enim explicabo, quasi praesentium porro, eaque asperiores repellat iure ab. Commodi, fuga atque dignissimos quis at reiciendis labore perferendis.</div>
+                        <div className="moreabout">As a MERN Stack Developer, I excel in building full-stack web applications using MongoDB, Express.js, React.js, and Node.js. I am skilled in developing dynamic, responsive interfaces with React.js and creating scalable server-side applications with Node.js and Express.js. Additionally, I have strong expertise in designing and managing databases with MongoDB, ensuring high-quality, maintainable, and scalable solutions.</div>
                         <div className="buttons">
                             <button onClick={resume}>Download CV</button>
                             <button onClick={contactme}>Contact me</button>
